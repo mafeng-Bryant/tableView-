@@ -21,7 +21,7 @@
 
 - (HMSegmentedControl *)segmentControl {
     if (!_segmentControl) {
-        NSArray *titles = @[@"page 1",@"page 2",@"page 3"];
+        NSArray *titles = @[@"page 1",@"page 2",@"page 3",@"page 4",@"page 5",@"page 6"];
         _segmentControl = [[HMSegmentedControl alloc] initWithSectionTitles:titles];
         _segmentControl.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 60);
         _segmentControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;

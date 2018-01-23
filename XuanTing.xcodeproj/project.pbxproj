@@ -27,6 +27,17 @@
 		E2CCB8FF201622ED00E9ED4F /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8FE201622ED00E9ED4F /* FirstTableViewController.m */; };
 		E2CCB902201622FB00E9ED4F /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB901201622FB00E9ED4F /* SecondTableViewController.m */; };
 		E2CCB9052016230800E9ED4F /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB9042016230800E9ED4F /* ThirdTableViewController.m */; };
+		E2CCB90E20170A3C00E9ED4F /* XTTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB90D20170A3C00E9ED4F /* XTTableViewDataSource.m */; };
+		E2CCB91220170AB800E9ED4F /* PPRefreshHeaderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB91020170AB800E9ED4F /* PPRefreshHeaderControl.m */; };
+		E2CCB91520170AF200E9ED4F /* PPRefreshFooterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB91420170AF200E9ED4F /* PPRefreshFooterControl.m */; };
+		E2CCB91A20170E7800E9ED4F /* XTHomeTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB91920170E7800E9ED4F /* XTHomeTableViewDataSource.m */; };
+		E2CCB91D2017131600E9ED4F /* XTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB91C2017131600E9ED4F /* XTScrollView.m */; };
+		E2CCB9202017135900E9ED4F /* XTTabPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB91F2017135900E9ED4F /* XTTabPageView.m */; };
+		E2CCB923201719B500E9ED4F /* XTHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB922201719B500E9ED4F /* XTHomePageView.m */; };
+		E2CCB9262017231200E9ED4F /* XTHomePageViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB9252017231200E9ED4F /* XTHomePageViewDataSource.m */; };
+		E2CCB92B2017259C00E9ED4F /* PPLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB9292017259C00E9ED4F /* PPLoadingView.xib */; };
+		E2CCB92C2017259C00E9ED4F /* PPLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB92A2017259C00E9ED4F /* PPLoadingView.m */; };
+		E88D9848F4B882B1D0ECEB40 /* libPods-XuanTing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 149CEA520EE2C9A777456056 /* libPods-XuanTing.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149CEA520EE2C9A777456056 /* libPods-XuanTing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XuanTing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE1BE5296B28FFCCA4F595F /* Pods-XuanTing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuanTing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XuanTing/Pods-XuanTing.debug.xcconfig"; sourceTree = "<group>"; };
+		61D832FD4294CAA736D2D0A0 /* Pods-XuanTing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XuanTing.release.xcconfig"; path = "Pods/Target Support Files/Pods-XuanTing/Pods-XuanTing.release.xcconfig"; sourceTree = "<group>"; };
 		E2CCB8A62015D7BD00E9ED4F /* XuanTing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuanTing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CCB8A92015D7BD00E9ED4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2CCB8AA2015D7BD00E9ED4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +99,25 @@
 		E2CCB9032016230800E9ED4F /* ThirdTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
 		E2CCB9042016230800E9ED4F /* ThirdTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
 		E2CCB9062016D29000E9ED4F /* Help.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Help.h; path = XuanTing/Help.h; sourceTree = SOURCE_ROOT; };
+		E2CCB90C20170A3C00E9ED4F /* XTTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTableViewDataSource.h; sourceTree = "<group>"; };
+		E2CCB90D20170A3C00E9ED4F /* XTTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTableViewDataSource.m; sourceTree = "<group>"; };
+		E2CCB91020170AB800E9ED4F /* PPRefreshHeaderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRefreshHeaderControl.m; sourceTree = "<group>"; };
+		E2CCB91120170AB800E9ED4F /* PPRefreshHeaderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRefreshHeaderControl.h; sourceTree = "<group>"; };
+		E2CCB91320170AF200E9ED4F /* PPRefreshFooterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRefreshFooterControl.h; sourceTree = "<group>"; };
+		E2CCB91420170AF200E9ED4F /* PPRefreshFooterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRefreshFooterControl.m; sourceTree = "<group>"; };
+		E2CCB91820170E7800E9ED4F /* XTHomeTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTHomeTableViewDataSource.h; sourceTree = "<group>"; };
+		E2CCB91920170E7800E9ED4F /* XTHomeTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTHomeTableViewDataSource.m; sourceTree = "<group>"; };
+		E2CCB91B2017131600E9ED4F /* XTScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTScrollView.h; sourceTree = "<group>"; };
+		E2CCB91C2017131600E9ED4F /* XTScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTScrollView.m; sourceTree = "<group>"; };
+		E2CCB91E2017135900E9ED4F /* XTTabPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTabPageView.h; sourceTree = "<group>"; };
+		E2CCB91F2017135900E9ED4F /* XTTabPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTabPageView.m; sourceTree = "<group>"; };
+		E2CCB921201719B500E9ED4F /* XTHomePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTHomePageView.h; sourceTree = "<group>"; };
+		E2CCB922201719B500E9ED4F /* XTHomePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTHomePageView.m; sourceTree = "<group>"; };
+		E2CCB9242017231200E9ED4F /* XTHomePageViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTHomePageViewDataSource.h; sourceTree = "<group>"; };
+		E2CCB9252017231200E9ED4F /* XTHomePageViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTHomePageViewDataSource.m; sourceTree = "<group>"; };
+		E2CCB9282017259C00E9ED4F /* PPLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLoadingView.h; sourceTree = "<group>"; };
+		E2CCB9292017259C00E9ED4F /* PPLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPLoadingView.xib; sourceTree = "<group>"; };
+		E2CCB92A2017259C00E9ED4F /* PPLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88D9848F4B882B1D0ECEB40 /* libPods-XuanTing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +146,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		559C39BA4CB4DA4D9283BFDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149CEA520EE2C9A777456056 /* libPods-XuanTing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C6F208E1EEC5EDE442D6FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE1BE5296B28FFCCA4F595F /* Pods-XuanTing.debug.xcconfig */,
+				61D832FD4294CAA736D2D0A0 /* Pods-XuanTing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2CCB89D2015D7BD00E9ED4F = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +170,8 @@
 				E2CCB8C12015D7BD00E9ED4F /* XuanTingTests */,
 				E2CCB8CC2015D7BD00E9ED4F /* XuanTingUITests */,
 				E2CCB8A72015D7BD00E9ED4F /* Products */,
+				57C6F208E1EEC5EDE442D6FF /* Pods */,
+				559C39BA4CB4DA4D9283BFDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,13 +188,14 @@
 		E2CCB8A82015D7BD00E9ED4F /* XuanTing */ = {
 			isa = PBXGroup;
 			children = (
+				E2CCB9272017255D00E9ED4F /* Loading */,
+				E2CCB91720170E2900E9ED4F /* Home */,
+				E2CCB91620170E1300E9ED4F /* DataSource */,
+				E2CCB90F20170A9900E9ED4F /* RefreshControl */,
 				E2CCB8E1201606F200E9ED4F /* Cell */,
 				E2CCB8E02016066E00E9ED4F /* View */,
 				E2CCB8A92015D7BD00E9ED4F /* AppDelegate.h */,
 				E2CCB8AA2015D7BD00E9ED4F /* AppDelegate.m */,
-				E2CCB8DB2015DAA800E9ED4F /* RootViewController.h */,
-				E2CCB8DC2015DAA800E9ED4F /* RootViewController.m */,
-				E2CCB8DD2015DAA800E9ED4F /* RootViewController.xib */,
 				E2CCB8FD201622ED00E9ED4F /* FirstTableViewController.h */,
 				E2CCB8FE201622ED00E9ED4F /* FirstTableViewController.m */,
 				E2CCB900201622FB00E9ED4F /* SecondTableViewController.h */,
@@ -181,6 +235,12 @@
 				E2CCB8F22016079B00E9ED4F /* XTTableView.m */,
 				E2CCB8F4201607CB00E9ED4F /* XTSegmentView.h */,
 				E2CCB8F5201607CB00E9ED4F /* XTSegmentView.m */,
+				E2CCB91B2017131600E9ED4F /* XTScrollView.h */,
+				E2CCB91C2017131600E9ED4F /* XTScrollView.m */,
+				E2CCB91E2017135900E9ED4F /* XTTabPageView.h */,
+				E2CCB91F2017135900E9ED4F /* XTTabPageView.m */,
+				E2CCB921201719B500E9ED4F /* XTHomePageView.h */,
+				E2CCB922201719B500E9ED4F /* XTHomePageView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +264,50 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		E2CCB90F20170A9900E9ED4F /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCB91320170AF200E9ED4F /* PPRefreshFooterControl.h */,
+				E2CCB91420170AF200E9ED4F /* PPRefreshFooterControl.m */,
+				E2CCB91120170AB800E9ED4F /* PPRefreshHeaderControl.h */,
+				E2CCB91020170AB800E9ED4F /* PPRefreshHeaderControl.m */,
+			);
+			path = RefreshControl;
+			sourceTree = "<group>";
+		};
+		E2CCB91620170E1300E9ED4F /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCB90C20170A3C00E9ED4F /* XTTableViewDataSource.h */,
+				E2CCB90D20170A3C00E9ED4F /* XTTableViewDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E2CCB91720170E2900E9ED4F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCB8DB2015DAA800E9ED4F /* RootViewController.h */,
+				E2CCB8DC2015DAA800E9ED4F /* RootViewController.m */,
+				E2CCB8DD2015DAA800E9ED4F /* RootViewController.xib */,
+				E2CCB91820170E7800E9ED4F /* XTHomeTableViewDataSource.h */,
+				E2CCB91920170E7800E9ED4F /* XTHomeTableViewDataSource.m */,
+				E2CCB9242017231200E9ED4F /* XTHomePageViewDataSource.h */,
+				E2CCB9252017231200E9ED4F /* XTHomePageViewDataSource.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2CCB9272017255D00E9ED4F /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCB9282017259C00E9ED4F /* PPLoadingView.h */,
+				E2CCB92A2017259C00E9ED4F /* PPLoadingView.m */,
+				E2CCB9292017259C00E9ED4F /* PPLoadingView.xib */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2CCB8D22015D7BD00E9ED4F /* Build configuration list for PBXNativeTarget "XuanTing" */;
 			buildPhases = (
+				3E75D9B54EF4203E9F4BA52A /* [CP] Check Pods Manifest.lock */,
 				E2CCB8A22015D7BD00E9ED4F /* Sources */,
 				E2CCB8A32015D7BD00E9ED4F /* Frameworks */,
 				E2CCB8A42015D7BD00E9ED4F /* Resources */,
+				844DF948E389CE23EC32A72A /* [CP] Embed Pods Frameworks */,
+				EC17485ADB37126D1C5AF4BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +421,7 @@
 				E2CCB8B32015D7BD00E9ED4F /* Assets.xcassets in Resources */,
 				E2CCB8EB2016074A00E9ED4F /* XTDescptionCell.xib in Resources */,
 				E2CCB8F02016076900E9ED4F /* XTContainerCell.xib in Resources */,
+				E2CCB92B2017259C00E9ED4F /* PPLoadingView.xib in Resources */,
 				E2CCB8E62016072900E9ED4F /* XTPosterCell.xib in Resources */,
 				E2CCB8DF2015DAA800E9ED4F /* RootViewController.xib in Resources */,
 			);
@@ -335,18 +443,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E75D9B54EF4203E9F4BA52A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XuanTing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844DF948E389CE23EC32A72A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XuanTing/Pods-XuanTing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC17485ADB37126D1C5AF4BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XuanTing/Pods-XuanTing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2CCB8A22015D7BD00E9ED4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CCB92C2017259C00E9ED4F /* PPLoadingView.m in Sources */,
 				E2CCB8B92015D7BD00E9ED4F /* main.m in Sources */,
 				E2CCB8EF2016076900E9ED4F /* XTContainerCell.m in Sources */,
+				E2CCB923201719B500E9ED4F /* XTHomePageView.m in Sources */,
+				E2CCB91520170AF200E9ED4F /* PPRefreshFooterControl.m in Sources */,
 				E2CCB8FF201622ED00E9ED4F /* FirstTableViewController.m in Sources */,
+				E2CCB9262017231200E9ED4F /* XTHomePageViewDataSource.m in Sources */,
 				E2CCB8EA2016074A00E9ED4F /* XTDescptionCell.m in Sources */,
 				E2CCB8AB2015D7BD00E9ED4F /* AppDelegate.m in Sources */,
+				E2CCB90E20170A3C00E9ED4F /* XTTableViewDataSource.m in Sources */,
+				E2CCB91220170AB800E9ED4F /* PPRefreshHeaderControl.m in Sources */,
 				E2CCB8F6201607CB00E9ED4F /* XTSegmentView.m in Sources */,
+				E2CCB91A20170E7800E9ED4F /* XTHomeTableViewDataSource.m in Sources */,
 				E2CCB8E52016072900E9ED4F /* XTPosterCell.m in Sources */,
+				E2CCB9202017135900E9ED4F /* XTTabPageView.m in Sources */,
+				E2CCB91D2017131600E9ED4F /* XTScrollView.m in Sources */,
 				E2CCB9052016230800E9ED4F /* ThirdTableViewController.m in Sources */,
 				E2CCB8F92016083600E9ED4F /* HMSegmentedControl.m in Sources */,
 				E2CCB8DE2015DAA800E9ED4F /* RootViewController.m in Sources */,
@@ -504,6 +672,7 @@
 		};
 		E2CCB8D32015D7BD00E9ED4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE1BE5296B28FFCCA4F595F /* Pods-XuanTing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +688,7 @@
 		};
 		E2CCB8D42015D7BD00E9ED4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D832FD4294CAA736D2D0A0 /* Pods-XuanTing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,19 +7,11 @@
 //
 
 #import "XTContainerCell.h"
-#import "FirstTableViewController.h"
-#import "SecondTableViewController.h"
-#import "ThirdTableViewController.h"
+#import "XTHomePageView.h"
 
 #define kHeight [UIScreen mainScreen].bounds.size.height - 64.0 - 60
 
-
 @interface XTContainerCell ()<UIScrollViewDelegate>
-
-@property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) FirstTableViewController *oneVC;
-@property (nonatomic, strong) SecondTableViewController *twoVC;
-@property (nonatomic, strong) ThirdTableViewController *threeVC;
 
 @end
 
@@ -29,48 +21,35 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         [self.contentView addSubview:self.scrollView];
-        [self configScrollView];
     }
     return self;
 }
 
-- (void)configScrollView
+- (XTScrollView *)scrollView
 {
-    self.oneVC = [[FirstTableViewController alloc]init];
-    self.twoVC = [[SecondTableViewController alloc]init];
-    self.threeVC = [[ThirdTableViewController alloc]init];
-    
-    [self.scrollView addSubview:self.oneVC.view];
-    [self.scrollView addSubview:self.twoVC.view];
-    [self.scrollView addSubview:self.threeVC.view];
-
-    self.oneVC.view.frame = CGRectMake(0, 0,[UIScreen mainScreen].bounds.size.width, kHeight);
-    self.twoVC.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width, 0, [UIScreen mainScreen].bounds.size.width, kHeight);
-    self.threeVC.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width * 2, 0, [UIScreen mainScreen].bounds.size.width, kHeight);
-
-}
-
-- (UIScrollView *)scrollView {
     if (!_scrollView) {
-        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, kHeight)];
-        _scrollView.delegate = self;
-        _scrollView.pagingEnabled = YES;
+        _scrollView = [[XTScrollView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, kHeight)];
         _scrollView.showsHorizontalScrollIndicator = NO;
-        _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width * 3, _scrollView.frame.size.height);
+        _scrollView.backgroundColor = [UIColor clearColor];
     }
     return _scrollView;
+}
+
+- (void)reloadDatas:(NSArray*)datas
+{
+    if (_scrollView && datas.count>0) {
+        [_scrollView reloadData:datas];
+    }
 }
 
 -(void)setIsCanScroll:(BOOL)isCanScroll
 {
     _isCanScroll = isCanScroll;
-    self.oneVC.vcCanScroll = isCanScroll;
-    self.twoVC.vcCanScroll = isCanScroll;
-    self.threeVC.vcCanScroll = isCanScroll;
-    if (!isCanScroll) {
-        [self.oneVC.tableView setContentOffset:CGPointZero animated:NO];
-        [self.twoVC.tableView setContentOffset:CGPointZero animated:NO];
-        [self.threeVC.tableView setContentOffset:CGPointZero animated:NO];
+    for (XTHomePageView* pageView in _scrollView.pageViews) {
+        pageView.dataSource.isCanScroll = _isCanScroll;
+        if (!_isCanScroll) {
+             [pageView.tableView setContentOffset:CGPointZero animated:NO];
+        }
     }
 }
 

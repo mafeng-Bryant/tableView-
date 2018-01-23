@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XTScrollView.h"
 
 @protocol XTContainerCellDelegate
 
 @optional
-
 //横向滚动稳定设置
 - (void)moveHorizontallyStableScrollViewDidScroll:(UIScrollView*)scrollView;
 
@@ -19,12 +19,13 @@
 
 @end
 
-
 @interface XTContainerCell : UITableViewCell
 
-@property (nonatomic,strong,readonly) UIScrollView* scrollView;
+@property (nonatomic,strong) XTScrollView* scrollView;
 @property (nonatomic,assign) BOOL isCanScroll;
 @property (nonatomic,assign) BOOL isSelectIndex;
 @property (nonatomic,weak) id<XTContainerCellDelegate>deleagte;
+
+- (void)reloadDatas:(NSArray*)datas;
 
 @end
