@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XTDescptionCell.h
 //  XuanTing
 //
 //  Created by patpat on 2018/1/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XTDescptionCell : UITableViewCell
 
 @end
-

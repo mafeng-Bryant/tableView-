@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		E2CCB8AB2015D7BD00E9ED4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8AA2015D7BD00E9ED4F /* AppDelegate.m */; };
-		E2CCB8AE2015D7BD00E9ED4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8AD2015D7BD00E9ED4F /* ViewController.m */; };
-		E2CCB8B12015D7BD00E9ED4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8AF2015D7BD00E9ED4F /* Main.storyboard */; };
 		E2CCB8B32015D7BD00E9ED4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8B22015D7BD00E9ED4F /* Assets.xcassets */; };
 		E2CCB8B62015D7BD00E9ED4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8B42015D7BD00E9ED4F /* LaunchScreen.storyboard */; };
 		E2CCB8B92015D7BD00E9ED4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8B82015D7BD00E9ED4F /* main.m */; };
 		E2CCB8C32015D7BD00E9ED4F /* XuanTingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8C22015D7BD00E9ED4F /* XuanTingTests.m */; };
 		E2CCB8CE2015D7BD00E9ED4F /* XuanTingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8CD2015D7BD00E9ED4F /* XuanTingUITests.m */; };
+		E2CCB8DE2015DAA800E9ED4F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8DC2015DAA800E9ED4F /* RootViewController.m */; };
+		E2CCB8DF2015DAA800E9ED4F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8DD2015DAA800E9ED4F /* RootViewController.xib */; };
+		E2CCB8E52016072900E9ED4F /* XTPosterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8E32016072900E9ED4F /* XTPosterCell.m */; };
+		E2CCB8E62016072900E9ED4F /* XTPosterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8E42016072900E9ED4F /* XTPosterCell.xib */; };
+		E2CCB8EA2016074A00E9ED4F /* XTDescptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8E82016074900E9ED4F /* XTDescptionCell.m */; };
+		E2CCB8EB2016074A00E9ED4F /* XTDescptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8E92016074900E9ED4F /* XTDescptionCell.xib */; };
+		E2CCB8EF2016076900E9ED4F /* XTContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8ED2016076900E9ED4F /* XTContainerCell.m */; };
+		E2CCB8F02016076900E9ED4F /* XTContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CCB8EE2016076900E9ED4F /* XTContainerCell.xib */; };
+		E2CCB8F32016079B00E9ED4F /* XTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8F22016079B00E9ED4F /* XTTableView.m */; };
+		E2CCB8F6201607CB00E9ED4F /* XTSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8F5201607CB00E9ED4F /* XTSegmentView.m */; };
+		E2CCB8F92016083600E9ED4F /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8F82016083600E9ED4F /* HMSegmentedControl.m */; };
+		E2CCB8FF201622ED00E9ED4F /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB8FE201622ED00E9ED4F /* FirstTableViewController.m */; };
+		E2CCB902201622FB00E9ED4F /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB901201622FB00E9ED4F /* SecondTableViewController.m */; };
+		E2CCB9052016230800E9ED4F /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CCB9042016230800E9ED4F /* ThirdTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +50,6 @@
 		E2CCB8A62015D7BD00E9ED4F /* XuanTing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuanTing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CCB8A92015D7BD00E9ED4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2CCB8AA2015D7BD00E9ED4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2CCB8AC2015D7BD00E9ED4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E2CCB8AD2015D7BD00E9ED4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E2CCB8B02015D7BD00E9ED4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2CCB8B22015D7BD00E9ED4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2CCB8B52015D7BD00E9ED4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2CCB8B72015D7BD00E9ED4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,31 @@
 		E2CCB8C92015D7BD00E9ED4F /* XuanTingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XuanTingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CCB8CD2015D7BD00E9ED4F /* XuanTingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanTingUITests.m; sourceTree = "<group>"; };
 		E2CCB8CF2015D7BD00E9ED4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2CCB8DB2015DAA800E9ED4F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E2CCB8DC2015DAA800E9ED4F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E2CCB8DD2015DAA800E9ED4F /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		E2CCB8E22016072900E9ED4F /* XTPosterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTPosterCell.h; sourceTree = "<group>"; };
+		E2CCB8E32016072900E9ED4F /* XTPosterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTPosterCell.m; sourceTree = "<group>"; };
+		E2CCB8E42016072900E9ED4F /* XTPosterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XTPosterCell.xib; sourceTree = "<group>"; };
+		E2CCB8E72016074900E9ED4F /* XTDescptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTDescptionCell.h; sourceTree = "<group>"; };
+		E2CCB8E82016074900E9ED4F /* XTDescptionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTDescptionCell.m; sourceTree = "<group>"; };
+		E2CCB8E92016074900E9ED4F /* XTDescptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XTDescptionCell.xib; sourceTree = "<group>"; };
+		E2CCB8EC2016076900E9ED4F /* XTContainerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTContainerCell.h; sourceTree = "<group>"; };
+		E2CCB8ED2016076900E9ED4F /* XTContainerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTContainerCell.m; sourceTree = "<group>"; };
+		E2CCB8EE2016076900E9ED4F /* XTContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XTContainerCell.xib; sourceTree = "<group>"; };
+		E2CCB8F12016079B00E9ED4F /* XTTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTTableView.h; sourceTree = "<group>"; };
+		E2CCB8F22016079B00E9ED4F /* XTTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTTableView.m; sourceTree = "<group>"; };
+		E2CCB8F4201607CB00E9ED4F /* XTSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTSegmentView.h; sourceTree = "<group>"; };
+		E2CCB8F5201607CB00E9ED4F /* XTSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTSegmentView.m; sourceTree = "<group>"; };
+		E2CCB8F72016083600E9ED4F /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		E2CCB8F82016083600E9ED4F /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		E2CCB8FD201622ED00E9ED4F /* FirstTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		E2CCB8FE201622ED00E9ED4F /* FirstTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		E2CCB900201622FB00E9ED4F /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		E2CCB901201622FB00E9ED4F /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		E2CCB9032016230800E9ED4F /* ThirdTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		E2CCB9042016230800E9ED4F /* ThirdTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		E2CCB9062016D29000E9ED4F /* Help.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Help.h; path = XuanTing/Help.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +135,19 @@
 		E2CCB8A82015D7BD00E9ED4F /* XuanTing */ = {
 			isa = PBXGroup;
 			children = (
+				E2CCB8E1201606F200E9ED4F /* Cell */,
+				E2CCB8E02016066E00E9ED4F /* View */,
 				E2CCB8A92015D7BD00E9ED4F /* AppDelegate.h */,
 				E2CCB8AA2015D7BD00E9ED4F /* AppDelegate.m */,
-				E2CCB8AC2015D7BD00E9ED4F /* ViewController.h */,
-				E2CCB8AD2015D7BD00E9ED4F /* ViewController.m */,
-				E2CCB8AF2015D7BD00E9ED4F /* Main.storyboard */,
+				E2CCB8DB2015DAA800E9ED4F /* RootViewController.h */,
+				E2CCB8DC2015DAA800E9ED4F /* RootViewController.m */,
+				E2CCB8DD2015DAA800E9ED4F /* RootViewController.xib */,
+				E2CCB8FD201622ED00E9ED4F /* FirstTableViewController.h */,
+				E2CCB8FE201622ED00E9ED4F /* FirstTableViewController.m */,
+				E2CCB900201622FB00E9ED4F /* SecondTableViewController.h */,
+				E2CCB901201622FB00E9ED4F /* SecondTableViewController.m */,
+				E2CCB9032016230800E9ED4F /* ThirdTableViewController.h */,
+				E2CCB9042016230800E9ED4F /* ThirdTableViewController.m */,
 				E2CCB8B22015D7BD00E9ED4F /* Assets.xcassets */,
 				E2CCB8B42015D7BD00E9ED4F /* LaunchScreen.storyboard */,
 				E2CCB8B72015D7BD00E9ED4F /* Info.plist */,
@@ -130,6 +172,36 @@
 				E2CCB8CF2015D7BD00E9ED4F /* Info.plist */,
 			);
 			path = XuanTingUITests;
+			sourceTree = "<group>";
+		};
+		E2CCB8E02016066E00E9ED4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCB8F12016079B00E9ED4F /* XTTableView.h */,
+				E2CCB8F22016079B00E9ED4F /* XTTableView.m */,
+				E2CCB8F4201607CB00E9ED4F /* XTSegmentView.h */,
+				E2CCB8F5201607CB00E9ED4F /* XTSegmentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2CCB8E1201606F200E9ED4F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E2CCB8F72016083600E9ED4F /* HMSegmentedControl.h */,
+				E2CCB8F82016083600E9ED4F /* HMSegmentedControl.m */,
+				E2CCB8E22016072900E9ED4F /* XTPosterCell.h */,
+				E2CCB8E32016072900E9ED4F /* XTPosterCell.m */,
+				E2CCB8E42016072900E9ED4F /* XTPosterCell.xib */,
+				E2CCB8E72016074900E9ED4F /* XTDescptionCell.h */,
+				E2CCB8E82016074900E9ED4F /* XTDescptionCell.m */,
+				E2CCB8E92016074900E9ED4F /* XTDescptionCell.xib */,
+				E2CCB8EC2016076900E9ED4F /* XTContainerCell.h */,
+				E2CCB8ED2016076900E9ED4F /* XTContainerCell.m */,
+				E2CCB8EE2016076900E9ED4F /* XTContainerCell.xib */,
+				E2CCB9062016D29000E9ED4F /* Help.h */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +312,10 @@
 			files = (
 				E2CCB8B62015D7BD00E9ED4F /* LaunchScreen.storyboard in Resources */,
 				E2CCB8B32015D7BD00E9ED4F /* Assets.xcassets in Resources */,
-				E2CCB8B12015D7BD00E9ED4F /* Main.storyboard in Resources */,
+				E2CCB8EB2016074A00E9ED4F /* XTDescptionCell.xib in Resources */,
+				E2CCB8F02016076900E9ED4F /* XTContainerCell.xib in Resources */,
+				E2CCB8E62016072900E9ED4F /* XTPosterCell.xib in Resources */,
+				E2CCB8DF2015DAA800E9ED4F /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +340,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CCB8AE2015D7BD00E9ED4F /* ViewController.m in Sources */,
 				E2CCB8B92015D7BD00E9ED4F /* main.m in Sources */,
+				E2CCB8EF2016076900E9ED4F /* XTContainerCell.m in Sources */,
+				E2CCB8FF201622ED00E9ED4F /* FirstTableViewController.m in Sources */,
+				E2CCB8EA2016074A00E9ED4F /* XTDescptionCell.m in Sources */,
 				E2CCB8AB2015D7BD00E9ED4F /* AppDelegate.m in Sources */,
+				E2CCB8F6201607CB00E9ED4F /* XTSegmentView.m in Sources */,
+				E2CCB8E52016072900E9ED4F /* XTPosterCell.m in Sources */,
+				E2CCB9052016230800E9ED4F /* ThirdTableViewController.m in Sources */,
+				E2CCB8F92016083600E9ED4F /* HMSegmentedControl.m in Sources */,
+				E2CCB8DE2015DAA800E9ED4F /* RootViewController.m in Sources */,
+				E2CCB902201622FB00E9ED4F /* SecondTableViewController.m in Sources */,
+				E2CCB8F32016079B00E9ED4F /* XTTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +387,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E2CCB8AF2015D7BD00E9ED4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2CCB8B02015D7BD00E9ED4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2CCB8B42015D7BD00E9ED4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,7 +507,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AJP77DB44;
 				INFOPLIST_FILE = XuanTing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opsohkou2.app.XuanTing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +522,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AJP77DB44;
 				INFOPLIST_FILE = XuanTing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opsohkou2.app.XuanTing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
